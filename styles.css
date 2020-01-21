@@ -1,3 +1,23 @@
 body {
-  color: #FF0000;
+  color: #000000;
+  text-align: center;
+  background-color: #15C8DD;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+h1 {
+  font-size: 24px;
+  background-color: #0A6A75;
+}
+ol, ul {
+  text-align: center;
+  padding: 10px 20px;
+  list-style-position: inside;
+}
+article {
+  background-color: #E289EE;
+}
+.lists {
+  background-color: #0A6A75;
+  padding: 5px 10px 5px 10px;
 }
