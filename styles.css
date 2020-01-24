@@ -3,10 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.intro{
+  text-align: center;
+}
+.lists{
+  text-align: center;
+}
+ol, ul{
+  list-style-position: inside;
+}
 .page {
   display: flex;
   flex-wrap: wrap;
+}
+#navigation{
+position:fixed;
+width:100%;
+height:60px;
+background-color:#4394D8;
+z-index:1;
+}
+#navigation a{
+font-size:25px;
+text-decoration:none;
+float:left;
+text-align:center;
+display:block;
+text-decoration:none;
+padding:15px 10px;
+color:black;
+}
+#navigation a:hover{
+background-color:#366FD9;
 }
 
 .section {
@@ -18,8 +46,7 @@
 }
 
 .menu {
-  background-color: #5995DA;
-  height: 80px;
+  height: 60px;
 }
 
 .header {
@@ -28,9 +55,12 @@
 
 .content {
   background-color: #EAEDF0;
-  height: 600px;
+  height: 400px;
+  flex-direction: column;
 }
+.intro {
 
+}
 .sign-up {
   background-color: #D6E9FE;
 }
@@ -48,15 +78,16 @@
 }
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
-  body {
-    background-color: #F09A9D; /* Red */
-  }
+
 }
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
     background-color: #F5CF8E; /* Yellow */
+  }
+  .header {
+    height: 100px;
   }
   .sign-up, .feature-1, .feature-2, .feature-3 {
   width: 50%;
@@ -65,9 +96,6 @@
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
-  body {
-    background-color: #B2D6FF; /* Blue */
-  }
   .page {
     width: 960px;
     margin: 0 auto;
@@ -76,10 +104,10 @@
     width: 33.3%;
   }
   .header {
-    height: 400px;
+    height: 100px;
   }
   .sign-up {
-  height: 200px;
+  height: 50px;
   order: 1;
   }
   .content {
