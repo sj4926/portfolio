@@ -38,6 +38,12 @@ body{
   height: auto;
   text-align: center;
 }
+.products{
+  justify-content: center;
+}
+.col-md{
+  align-items: center;
+}
 
 .masonry { /* Masonry container */
   column-count: 3;
@@ -51,9 +57,11 @@ body{
   width: 100%;
 }
 
+.cart{
+  float: right;
+}
 img{
   width: 100%;
-  z-index: -1;
 }
 
 .portfolio .home .about{
@@ -77,7 +85,7 @@ img{
 .about{
   display: flex;
   justify-content: center;
-  width: 100%
+  width: 100%;
 }
 .aboutContainer{
   display: flex;
@@ -104,7 +112,7 @@ img{
 .reviews{
   display: flex;
   justify-content: center;
-  width: 100%
+  width: 100%;
 }
 .reviewContainer{
   display: flex;
@@ -146,5 +154,12 @@ img{
   }
   .aboutContainer{
     flex-direction: row;
+  }
+  .row{
+    flex-direction: row;
+    justify-content: space-around;
+    width: 900px;
+  }
+  .rowProduct{
   }
 }
