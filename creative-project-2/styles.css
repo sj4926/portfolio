@@ -1,8 +1,10 @@
 body {
-  background-color: #0A1B6B;
-  color: #FFFFFF;
+  background-color: #B5BFEB;
+  color: #0F1326;
   text-align: center;
   margin: 0;
+  min-height: auto;
+  margin-bottom: 60px;
 }
 
 #form {
@@ -13,6 +15,7 @@ body {
   font-size: 40px;
   text-align: center;
   padding-top: 15px;
+  color: #0F1326;
 }
 
 #dateInput, #dateSubmit {
@@ -27,6 +30,7 @@ body {
   text-align: center;
   font-size: 50px;
   overflow: hidden;
+  color: #FFFFFF;
 }
 
 #dateSubmit, #dateInput{
@@ -41,7 +45,8 @@ body {
 }
 
 #explanation {
-  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 img {
@@ -49,9 +54,20 @@ img {
 
 }
 
+.foot{
+  background-color: #0A102B;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
-
+  #dateSubmit, #dateInput{
+    margin-bottom: 10px;
+  }
 }
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
