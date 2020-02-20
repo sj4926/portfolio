@@ -14,7 +14,7 @@ document.getElementById("dateSubmit").addEventListener("click", function(event) 
     results += "<img style = 'width: 85%' src ='" + json.url + "'>";
     results += '<h2 style = "font-family: Courier New, Courier, monospace">' + json.title + "</h2>";
     results += '<p>' + json.date + "</p>";
-    results += '<p>' + json.explanation + "</p>";
+    results += '<p id="explanation">' + json.explanation + "</p>";
     document.getElementById("results").innerHTML = results;
   })
   .catch(err => {

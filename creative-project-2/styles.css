@@ -40,6 +40,10 @@ body {
   margin: 15px;
 }
 
+#explanation {
+  width: 80%;
+}
+
 img {
   width: 80%;
 
