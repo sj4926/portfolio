@@ -1,0 +1,58 @@
+body {
+  width: auto;
+  background-color: #31CBCB;
+  background-image: url("skyimg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 40px;
+}
+
+nav {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+h1 {
+  text-decoration-color: #FFFFFF;
+  text-shadow: 20px;
+}
+
+form {
+  font-weight: bolder;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+label{
+  font-family: cursive;
+}
+
+#weatherSubmit, #weatherInput{
+    border-radius: 5px;
+}
+
+#weatherResults{
+  text-align: center;
+}
+
+#forecastResults{
+  text-align: center;
+}
+
+table, th, td {
+  border-style: solid;
+  border-color: #1914C4;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+
+footer {
+  width: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+}

@@ -1,0 +1,75 @@
+body {
+  background-color: #0A1B6B;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0;
+}
+
+#form {
+  text-align: left;
+  font-weight: bolder;
+  width: auto;
+  height: auto;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#dateInput, #dateSubmit {
+  border-radius: 10px;
+}
+
+#top_bar {
+  background-color: #0A102B;
+  width: 100%;
+  top: 0;
+  height: auto;
+  text-align: center;
+  font-size: 50px;
+  overflow: hidden;
+}
+
+#dateSubmit, #dateInput{
+  font-size: 30px;
+}
+
+#results{
+  text-align: center;
+  font-size: 25px;
+  font-family: cursive;
+  margin: 15px;
+}
+
+img {
+  width: 80%;
+
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+}
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  form {
+    position: static;
+    top: 100px;
+    left: 100px;
+  }
+
+  #top_bar{
+    font-size: 20px;
+  }
+
+  label {
+    font-size: 25px;
+  }
+
+  #dateInput, #dateSubmit {
+    font-size: 15px;
+  }
+}
