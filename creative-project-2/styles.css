@@ -63,6 +63,9 @@ img {
   text-align: center;
 }
 
+a {
+  color: white;
+}
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   #dateSubmit, #dateInput{
